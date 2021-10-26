@@ -1,5 +1,5 @@
 import WorkImage1 from '../images/works/work1.png';
-import WorkImage1 from '../images/works/work2.png';
+import WorkImage2 from '../images/works/work2.png';
 
 export const Works = () => {
   return (
