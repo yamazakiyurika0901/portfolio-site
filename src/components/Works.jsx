@@ -1,4 +1,5 @@
 import WorkImage1 from '../images/works/work1.png';
+import WorkImage1 from '../images/works/work2.png';
 
 export const Works = () => {
   return (
@@ -15,6 +16,11 @@ export const Works = () => {
                 <div className="work-thumb">
                   <a href="https">
                     <img src={WorkImage1}/>
+                  </a>
+                </div>
+                <div className="work-thumb">
+                  <a href="https://simple-sns-laravel.herokuapp.com/">
+                    <img src={WorkImage2}/>
                   </a>
                 </div>
                 <h3 className="title-text">エンジニア</h3>
