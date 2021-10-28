@@ -18,7 +18,7 @@ export const Index = () => {
       <div className="display-table">
         <div className="display-table-contents">
           <div className="profile-thumb" style={{backgroundImage: `url(${ProfileImage})`}}></div>
-          <h1 className="title-text">山﨑柚里香</h1>
+          <h1 className="title-text">Y.Yamazaki</h1>
           <h3 className="title-text">駆け出しエンジニア</h3>
           <ul className="social-icons">
             <li className="icon-link">
