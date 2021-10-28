@@ -36,6 +36,7 @@ export const Index = () => {
       <div className="container">
         <div className="heading">
           <h2>Skills</h2>
+          <p>GitHub内の全リポジトリからデータを取得し、どんなプログラミング言語のコードをどのくらいの割合で書いているかを円グラフで表示しています。</p>
         </div>
         <div className="skills-container">
           {
@@ -73,17 +74,23 @@ export const Index = () => {
         <div className="heading">
         <h2>Works</h2>
         </div>
+            <div className="works-container">
 
-            <div className="work-contents">
-              <div className="work-thumb">
-                <a href="https://simple-sns-laravel.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <div className="work-contents">
+              <h3><i class="fas fa-folder"></i>SNS風Webアプリ</h3>
+
+                <a href="https://simple-sns-laravel.herokuapp.com/" className="work-thumb" target="_blank" rel="noopener noreferrer">
                   <img src={WorkImage2}/>
                 </a>
+                <div class="work-description">言語：PHP(Laravel)、JavaScript(React,Vue.js)</div>
+                <div class="work-description">DB：PostgreSQL</div>
               </div>
-              <div className="work-thumb">
-                <a href="https://dev.d273brqqzpcvt1.amplifyapp.com" target="_blank" rel="noopener noreferrer">
+              <div className="work-contents">
+              <h3><i class="fas fa-folder"></i>ECサイト</h3>
+                <a href="https://dev.d273brqqzpcvt1.amplifyapp.com" className="work-thumb" target="_blank" rel="noopener noreferrer">
                   <img src={WorkImage3}/>
                 </a>
+                <div class="work-description">言語：JavaScript(React)</div>
               </div>
             </div>
     </div>
@@ -95,8 +102,8 @@ export const Index = () => {
     <div className="container">
       <div className="contact-contents">
         <h2>Contact</h2>
-        <p className="description">お仕事のご相談・ご依頼など以下よりご連絡ください。</p>
-        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="btn">Contact</a>
+        <p className="description">何かございましたら以下よりご連絡ください。</p>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdHCC21rjFg7ExS_d1cwvjAS8bWmABAqZ3nwvuWlnQtbp0Kgw/viewform?embedded=true" width="640" height="645" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
       </div>
     </div>
   </div>
