@@ -10,6 +10,7 @@ export const Skills = () => {
       <div className="container">
         <div className="heading">
           <h2>Skills</h2>
+          <p>GitHub内の全リポジトリからデータを取得し、どんなプログラミング言語のコードをどのくらいの割合で書いているか？を円グラフにしています。</p>
         </div>
         <div className="skills-container">
           {

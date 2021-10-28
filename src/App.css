@@ -21,12 +21,16 @@ h3 {
   font-size: 16px;
 }
 
+p {
+  font-size: 13px;
+}
+
 .main-cover {
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  height: 40vh;
+  height: 50vh;
   width: 100%;
 }
 
@@ -104,7 +108,7 @@ h3 {
 }
 
 #skills {
-  padding: 40px 0;
+  padding: 35px 0;
   clear: both;
 }
 
@@ -131,17 +135,21 @@ h3 {
   clear: both;
 }
 
-.work-contents {
+.works-container {
   display: flex;
 }
 
 .work-thumb {
-  margin-right: 20px;
-  display: inline-block;
+  display: flex;
+  margin-right: 25px;
   border: 1.5px solid;
   border-color: gray;
   padding: 2px;
   border-radius: 8px;
+ }
+
+ .work-description {
+   font-size: 13px;
  }
 
 #contact {
